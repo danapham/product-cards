@@ -18,14 +18,17 @@ body {
   border-radius: 2%;
   color: #212121;
   font-family: 'Open Sans', sans-serif;
+  padding: .5rem;
 }
+
 img {
-  height: 14rem;
-  width: 20rem;
+  width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 2%;;
 }
+
 h2 {
   text-align: center;
   font-family: 'Oswald', sans-serif;
@@ -56,4 +59,20 @@ footer {
 h5 {
   font-weight: normal;
   font-size: 1rem;
+}
+
+.football-img {
+  position:  relative;
+}
+
+.sold-out-img {
+  position: absolute;
+  top: 6rem;
+  left: 4rem;
+  width: 60%;
+  opacity: .9;
+}
+
+.img-container {
+  position: relative;
 }
