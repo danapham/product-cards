@@ -3,17 +3,20 @@
   margin: 0;
 }
 body {
-  background-color: whitesmoke;
+  background-color: #607D8B;
   display: flex;
   flex-wrap: wrap;
   max-width: 90rem;
   min-width: 90rem;
 }
 .card-style {
-  border: solid 1px lightblue;
+  border: solid 1px #BDBDBD;
   width: 20rem;
-  box-shadow: .5rem .5rem lightgray;    
+  box-shadow: .25rem .25rem #455A64;    
   margin: 2rem;
+  background-color: #CFD8DC;
+  border-radius: 2%;
+  color: #212121;
 }
 img {
   height: 14rem;
@@ -29,6 +32,6 @@ h2 {
   text-align: justify;
 }
 h3 {
-  background-color: #A9A9A9;
-  color: yellow;
+  background-color: #FFC107;
+  color: #FFFFFF;
 }
