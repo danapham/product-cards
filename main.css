@@ -3,22 +3,22 @@
   margin: 0;
 }
 body {
-  background-color: #607D8B;
+  background-color: #607d8b;
   display: flex;
   flex-wrap: wrap;
-  max-width: 90rem;
-  min-width: 90rem;
+  justify-content: space-around;
+  padding: 2% 20% 5% 20%;
 }
 .card-style {
-  border: solid 1px #BDBDBD;
-  width: 20rem;
-  box-shadow: .25rem .25rem .25rem #455A64;    
-  margin: 2rem;
-  background-color: #CFD8DC;
+  border: solid 1px #bdbdbd;
+  box-shadow: 0.25rem 0.25rem 0.25rem #455a64;
+  margin-bottom: 2%;
+  background-color: #cfd8dc;
   border-radius: 2%;
   color: #212121;
-  font-family: 'Open Sans', sans-serif;
-  padding: .5rem;
+  font-family: "Open Sans", sans-serif;
+  padding: 1%;
+  flex: 0 30%;
 }
 
 img {
@@ -26,25 +26,25 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 2%;;
+  border-radius: 2%;
 }
 
 h2 {
   text-align: center;
-  font-family: 'Oswald', sans-serif;
-  letter-spacing: .05rem;
-  font-size: 1.75rem;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0.075rem;
+  font-size: 15%;
 }
 .descriptor {
   text-align: justify;
 }
 h3 {
-  background-color: #FFC107;
-  color: #FFFFFF;
+  background-color: #ffc107;
+  color: #ffffff;
 }
 
 .spec-font {
-  font-size: .83rem;
+  font-size: 75%;
   font-weight: bold;
 }
 
@@ -53,7 +53,7 @@ h4 {
 }
 
 footer {
-  font-size: .7rem;
+  font-size: 0.7rem;
 }
 
 h5 {
@@ -62,7 +62,7 @@ h5 {
 }
 
 .football-img {
-  position:  relative;
+  position: relative;
 }
 
 .sold-out-img {
@@ -70,7 +70,7 @@ h5 {
   top: 6rem;
   left: 4rem;
   width: 60%;
-  opacity: .9;
+  opacity: 0.9;
 }
 
 .img-container {
