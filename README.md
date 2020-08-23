@@ -1,2 +1,9 @@
-# product-cards
-https://dana-product-cards.netlify.app/
+# Product Cards
+
+A single page of responsively displayed cards.
+
+![screenshot](screenshot.png)
+
+# Technologies Used
+- HTML
+- CSS
